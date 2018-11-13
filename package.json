@@ -1,6 +1,6 @@
 {
   "name": "@tight/is-type",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Type checkers",
   "main": "dist/index.js",
   "repository": "https://github.com/madebytight/is-type",
