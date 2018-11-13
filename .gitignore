@@ -1,0 +1,16 @@
+# Build folder
+dist
+
+# Node
+node_modules
+
+# Yarn
+yarn-debug.log*
+.yarn-integrity
+yarn-error.log
+
+# ndenv
+.node-version
+
+# Merge / conflict files
+*.orig
