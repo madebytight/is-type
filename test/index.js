@@ -11,7 +11,7 @@ import {
   isUndefined
 } from '../lib';
 
-test('all function are expoted', t => {
+test('all function are exported', t => {
   t.is(typeof isArray, 'function');
   t.is(typeof isBoolean, 'function');
   t.is(typeof isFunction, 'function');
