@@ -1,6 +1,6 @@
 JavaScript type checkers
 
-[![Build status](https://circleci.com/gh/madebytight/is-type.svg?style=svg)](https://circleci.com/gh/madebytight/is-type)
+[![npm version](https://img.shields.io/npm/v/@tight/is-type.svg)](https://www.npmjs.com/package/@tight/is-type) [![Build status](https://img.shields.io/circleci/project/github/madebytight/is-type.svg)](https://circleci.com/gh/madebytight/is-type)
 
 ## Installation
 
