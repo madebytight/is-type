@@ -10,7 +10,8 @@
   "scripts": {
     "build": "yarn clean && babel lib --out-dir dist",
     "clean": "rimraf dist",
-    "lint": "eslint lib/ test/",
+    "lint": "eslint lib test",
+    "prepublish": "yarn build",
     "test": "ava"
   },
   "files": [
