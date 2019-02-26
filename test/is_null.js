@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isNull from '../lib/is_null';
+import { isNull } from '..';
 
 test('isNull', t => {
   t.is(isNull([]), false);

@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isFunction from '../lib/is_function';
+import { isFunction } from '..';
 
 test('isFunction', t => {
   t.is(isFunction([]), false);

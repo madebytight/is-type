@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isPresent from '../lib/is_present';
+import { isPresent } from '..';
 
 test('isPresent', (t) => {
   t.is(isPresent(undefined), false);

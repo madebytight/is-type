@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isObject from '../lib/is_object';
+import { isObject } from '..';
 
 test('isObject', t => {
   t.is(isObject([]), false);

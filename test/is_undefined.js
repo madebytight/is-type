@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isUndefined from '../lib/is_undefined';
+import { isUndefined } from '..';
 
 test('isUndefined', t => {
   t.is(isUndefined([]), false);

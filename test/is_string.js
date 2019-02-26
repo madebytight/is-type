@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isString from '../lib/is_string';
+import { isString } from '..';
 
 test('isString', t => {
   t.is(isString([]), false);

@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isBoolean from '../lib/is_boolean';
+import { isBoolean } from '..';
 
 test('isBoolean', t => {
   t.is(isBoolean([]), false);

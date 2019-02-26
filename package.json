@@ -2,17 +2,18 @@
   "name": "@tight/is-type",
   "version": "1.0.2",
   "description": "Type checkers",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "repository": "https://github.com/madebytight/is-type",
   "author": "Anders Svendal <anders@tight.no>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn clean && babel lib --out-dir dist",
+    "build": "yarn clean && rollup -c",
     "clean": "rimraf dist",
     "lint": "eslint lib test",
     "prepublish": "yarn build",
-    "test": "ava"
+    "test": "yarn build && ava"
   },
   "files": [
     "dist/**/*"
@@ -29,6 +30,8 @@
     "@babel/register": "^7.0.0",
     "ava": "1.0.0-rc.2",
     "eslint": "^5.9.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "rollup": "^1.3.0",
+    "rollup-plugin-babel": "^4.3.2"
   }
 }

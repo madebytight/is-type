@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import isNumber from '../lib/is_number';
+import { isNumber } from '..';
 
 test('isNumber', t => {
   t.is(isNumber([]), false);

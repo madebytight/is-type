@@ -7,9 +7,10 @@ import {
   isNull,
   isNumber,
   isObject,
+  isPresent,
   isString,
   isUndefined
-} from '../lib';
+} from '..';
 
 test('all function are exported', t => {
   t.is(typeof isArray, 'function');
@@ -18,6 +19,7 @@ test('all function are exported', t => {
   t.is(typeof isNull, 'function');
   t.is(typeof isNumber, 'function');
   t.is(typeof isObject, 'function');
+  t.is(typeof isPresent, 'function');
   t.is(typeof isString, 'function');
   t.is(typeof isUndefined, 'function');
 });
