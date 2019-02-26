@@ -1,6 +1,6 @@
 {
   "name": "@tight/is-type",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Type checkers",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
